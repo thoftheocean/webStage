@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+{% set links=[
+            {'label':'home', 'href':url_for('.index')},
+            {'label':'home', 'href':url_for('.about')},
+            {'label':'home', 'href':url_for('.services')},
+            {'label':'home', 'href':url_for('.projects')},
+
+]%}
+
+<nav>
+    {% for link in links %}
+        <a href="{{ link.href}}}">{{link.label}}</a>
+    {% endfor %}
+</nav>
+
+</body>
+</html>
