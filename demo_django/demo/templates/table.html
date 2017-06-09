@@ -33,7 +33,7 @@
    </tbody>
 </table>
 
-<form method="post" action={% url 'test'%}>
+<form method="post" action={% url'test'%}>
     {% csrf_token %}
     <input type="text", value="", name="key">
     <input type="submit", value="提交">

@@ -40,7 +40,7 @@ def demo(request):
 
 
 def test(request):
-    return render(request,'a.html')
+    return render(request, 'child.html')
 
 
 def add_publisher(request):
