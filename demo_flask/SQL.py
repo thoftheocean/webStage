@@ -12,7 +12,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 #获取当前文件的决定路径
 from os import path
-basedir=path.abspath(path.dirname(__file__))
+basedir = path.abspath(path.dirname(__file__))
 
 app = Flask(__name__)
 manager = Manager(app)
@@ -78,14 +78,14 @@ class Role(db.Model):
     __tablename__ = 'roles'
     id = db.Column(db.INTEGER, primary_key=True)
     name = db.Column(db.String, nullable=True)
-    users = db.Relationship('User', backrf='roles')
+    users = db.relationship('User', backref='roles')
 
 class User(db.Model):
     __tablename__ = 'users'
     id = db.Column(db.INTEGER, primary_key=True)
     name = db.Column(db.String, nullable=True)
     password = db.Column(db.String, nullable=True)
-    role_id = db.Column(db.INTEGER, db.ForeignKey('roles.id'))
+    role_id = db.Column(db.INTEGER, db.ForeignKey('roles.id')) #外键
 
 
 if __name__ == "__main__":

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3698519698">
+    <data-source source="LOCAL" name="appdb" uuid="3518423d-c612-45f3-b2ca-e4b4f47c9e33">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Administrator\Desktop\oceanofcodes\webStage\app_flask\app\data.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>

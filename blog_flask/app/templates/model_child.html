@@ -1,0 +1,28 @@
+{#子模板#}
+{% extends 'model.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+{# ----定义导航栏------ #}
+
+{#{% set links=[#}
+{#    {'label':'Home','href':url_for('.home')},#}
+{#    {'label':'About','href':url_for('.about')},#}
+{#    {'label':'Product','href':url_for('.product')},#}
+{#    {'label':'Service','href':url_for('.service')}#}
+{#]%}#}
+{##}
+{#<nav>#}
+{#    {% for link in links %}#}
+{#            {% if not loop.first %} | {% endif %}#}
+{#            <a href="{{ link.href }}">{{ link.label }}#}
+{#    {% endfor %}#}
+{#</nav>#}
+{# ----end定义导航栏------ #}
+
+
+
+{% endblock content %}
+
+{% block footer %}
+        {{ super() }}
+{% endblock %}
