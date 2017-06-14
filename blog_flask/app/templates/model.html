@@ -27,6 +27,8 @@
     <header>{% block header %}{% endblock %}</header>
 {% endblock %}
 
+ {% block page_body %}{% endblock %}
+
 {% for item in items %}
     <li>{% block loop_item scoped %}{{ item }}{% endblock %} </li>
 {% endfor %}

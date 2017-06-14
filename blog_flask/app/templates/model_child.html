@@ -1,7 +1,8 @@
 {#子模板#}
 {% extends 'model.html' %}
+{% from 'bootstrap/pagination.html' import render_pagination %}
 {% block title %}{{ title }}{% endblock %}
-{% block content %}
+
 {# ----定义导航栏------ #}
 
 {#{% set links=[#}
@@ -18,10 +19,16 @@
 {#    {% endfor %}#}
 {#</nav>#}
 {# ----end定义导航栏------ #}
+{% block page_body %}
+    <div class="container">
+        <a href = "{{ url_for('main.edit') }}" class="btn btn-primary">发表新文章</a>
+    </div>
 
+    {% if pagination %}
+        {{ render_pagination(pagination) }}
+    {% endif %}
+{% endblock %}
 
-
-{% endblock content %}
 
 {% block footer %}
         {{ super() }}

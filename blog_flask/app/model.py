@@ -41,13 +41,13 @@ class Post(db.Model):
     title = db.Column(db.String)
     body = db.Column(db.String)
     body_html = db.Column(db.String)
-    created = db.Column(db.DATETIME, index=True, default=datetime.utcnow)
+    created = db.Column(db.DATETIME, index=True, default=datetime.datetime.now())
     comments = db.relationship('Comment', backref='post')
 
-    author_id = db.Column(db.INTEGER, db.ForeignKey('user.id'))
+    author_id = db.Column(db.INTEGER, db.ForeignKey('users.id'))
     @staticmethod
     def on_body_change(target, value, oldvalue, initiator):
-        if value is None or (value is ''):
+        if (value is None) or (value is ''):
             target.body_html = ''
         else:
             target.body_html = markdown(value)
@@ -59,3 +59,4 @@ class Comment(db.Model):
     title = db.Column(db.String)
     body = db.Column(db.String)
     post_id = db.Column(db.INTEGER, db.ForeignKey('posts.id'))
+    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))

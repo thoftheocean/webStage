@@ -13,7 +13,7 @@ def login():
     from .forms import LoginForm
     form = LoginForm()
     if form.validate_on_submit():
-        user = User.query.filter_by(name = form.username.data).first()
+        user = User.query.filter_by(name=form.username.data).first()
         if user is not None:
             login_user(user)
             return redirect(url_for('main.home'))
