@@ -5,7 +5,7 @@ from flask import render_template, request, flash, redirect, url_for,current_app
 from . import main
 from .. import db
 from ..model import Post, Comment
-from flask.ext.login import login_required, current_user
+from flask_login import login_required, current_user
 from app.auth.forms import CommentForm, PostForm
 from flask_babel import gettext as _
 

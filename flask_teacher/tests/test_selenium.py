@@ -3,7 +3,7 @@ import unittest
 import threading
 from selenium import webdriver
 from app import create_app, db
-from app.model import Role, User
+from app.models import Role, User
 import re
 from forgery_py import internet, basic
 
@@ -62,4 +62,4 @@ class SeleniumTest(unittest.TestCase):
 
         # 返回注册结果
 
-        self.assertTrue(re.search(u'欢迎来到我的博客', self.client.page_source))
+        self.assertTrue(re.search(u'欢迎来到Ray的博客', self.client.page_source))
