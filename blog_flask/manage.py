@@ -84,8 +84,8 @@ if __name__ == "__main__":
 
     #设调试模式
 
-    # app.run(debug=True)
+    app.run(debug=True)
 
 
     #实时监控模式 运行 python demo.py runserver
-    manager.run()
+    # manager.run()

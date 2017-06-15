@@ -7,14 +7,14 @@ from .. import db
 from ..model import Post, Comment
 from flask.ext.login import login_required, current_user
 from app.auth.forms import CommentForm, PostForm
-# from flask_babel import gettext as _
+from flask_babel import gettext as _
 
 @main.route("/")
 def home():
 
     page_home = request.args.get('page', 1, type=int)
     query = Post.query.order_by(Post.created.desc())
-    pagination = query.paginate(page_home, per_page=20,error_out=False)
+    pagination = query.paginate(page_home, per_page=20, error_out=False)
     posts = pagination.items
     return render_template('model_child.html',
                            title=u"欢迎来到H的博客",
@@ -75,3 +75,14 @@ def edit( id= 0):
                             form = post,
                             post = post)
 
+@main.route('/shoutdown')
+def shutdown():
+    if not current_app.testing:
+        abort(404)
+
+    shoutdown = request.environ.get('werkzeug.server.shutdown')
+    if not shoutdown:
+        abort(500)
+
+    shoutdown()
+    return u'正在关闭服务端进程...'
