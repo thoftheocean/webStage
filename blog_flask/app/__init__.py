@@ -38,6 +38,7 @@ def create_app(config_name='default'):
     # 配置数据库
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + path.join(basedir, 'data.sqlite')
     app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     #babel配置文件
     # app.config.from_object(config[config_name])
 
@@ -48,6 +49,7 @@ def create_app(config_name='default'):
         View(u'登录', 'auth.login'),
         View(u'注册', 'auth.register')
     ))
+
     db.init_app(app)
     bootstrap.init_app(app)
     nav.init_app(app)
