@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery实现ajax</title>
+</head>
+<body>
+    <h3>功能</h3>
+    <input type="submit" onclick="SendRequest()">
+    <h3>返回结果</h3>
+    <div id="result"></div>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+
+    <script type='text/javascript'>
+        function SendRequest(){
+            jQuery.get(
+                    {
+                        url:'data',
+                        type:'GET',
+                        dataType:'text',
+                        success:function(data,textstatus,xmlHttpRequest) {
+                            console.log(data);
+                            console.log(textstatus);
+                            console.log(xmlHttpRequest);
+                        }
+                    }
+            );
+
+        }
+
+    </script>
+
+</body>
+</html>

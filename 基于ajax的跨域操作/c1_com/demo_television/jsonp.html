@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <p>
+        <input type="submit" onclick="XmlSendRequest();" />
+    </p>
+
+    <p>
+        <input type="submit" onclick="JqSendRequest();" />
+    </p>
+
+    <script type="text/javascript" src="jquery-1.12.4.js"></script>
+    <script>
+        function XmlSendRequest(){
+            var tag = document.createElement('script');
+            tag.src = "http://www.jxntv.cn/data/jmd-jxtv2.html";
+            document.head.appendChild(tag);
+            document.head.removeChild(tag);
+        }
+
+        function JqSendRequest(){
+            $.ajax({
+                url: "http://www.jxntv.cn/data/jmd-jxtv2.html",
+                type: 'GET',
+                dataType: 'jsonp'
+            })
+        }
+
+        function list(arg){
+            console.log(arg);
+        }
+
+    </script>
+</body>
+</html>

@@ -19,6 +19,8 @@
 {#    {% endfor %}#}
 {#</nav>#}
 {# ----end定义导航栏------ #}
+<h1>{{ title }}</h1>
+
 {% block page_body %}
     <div class="container">
         <a href = "{{ url_for('main.edit') }}" class="btn btn-primary">发表新文章</a>

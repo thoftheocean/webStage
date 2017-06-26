@@ -43,11 +43,11 @@ def create_app(config_name='default'):
     # app.config.from_object(config[config_name])
 
     nav.register_element('top', Navbar(
-        View(u'主页', 'main.home'),
-        View(u'关于', 'main.about'),
-        View(u'服务', 'main.service'),
-        View(u'登录', 'auth.login'),
-        View(u'注册', 'auth.register')
+                        View(u'主页', 'main.home'),
+                        View(u'关于', 'main.about'),
+                        View(u'服务', 'main.service'),
+                        View(u'登录', 'auth.login'),
+                        View(u'注册', 'auth.register')
     ))
 
     db.init_app(app)
@@ -58,7 +58,8 @@ def create_app(config_name='default'):
 
     from app.auth import auth as auth_blueprint
     from app.main import main as main_blueprint
-    app.register_blueprint(auth_blueprint, url_prefix='/auth', static_folder='static')
+    # app.register_blueprint(auth_blueprint, url_prefix='/auth', static_folder='static')
+    app.register_blueprint(auth_blueprint, static_folder='static')
     app.register_blueprint(main_blueprint)
     return app
 

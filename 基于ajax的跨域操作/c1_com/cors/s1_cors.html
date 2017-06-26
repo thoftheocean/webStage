@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <p>
+        <input type="submit" onclick="XmlSendRequest();" />
+    </p>
+
+    <p>
+        <input type="submit" onclick="JqSendRequest();" />
+    </p>
+
+    <script type="text/javascript" src="jquery-1.12.4.js"></script>
+    <script>
+        function XmlSendRequest(){
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState == 4) {
+                    var result = xhr.responseText;
+                    console.log(result);
+                }
+            };
+            xhr.open('GET', "http://127.0.0.1:8000/", true);
+            xhr.send();
+        }
+
+        function JqSendRequest(){
+            $.ajax({
+                url: "http://c2.com:8000/test/",
+                type: 'GET',
+                dataType: 'text',
+                success: function(data, statusText, xmlHttpRequest){
+                    console.log(data);
+                }
+            })
+        }
+
+
+    </script>
+</body>
+</html>

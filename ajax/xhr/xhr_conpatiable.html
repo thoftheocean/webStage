@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XmlHttpRequest实现Ajax</title>
+</head>
+<body>
+    <h3>功能</h3>
+    <input type="submit" onclick="SendRequest()">
+    <h3>返回结果</h3>
+    <div id="result"></div>
+    <script type="text/javascript">
+        //全局变量
+        var xhr = null;
+        //创建xhr对象
+        function getxhr(){
+           if(window.XMLHttpRequest){
+               obj = new XMLHttpRequest();
+           }else if(widows.ActiveXObject){
+               obj = new ActiveXObject('Microsoft.XMLHTTP');
+
+           }
+            return obj;
+        }
+
+        //发送ajax请求
+        function SendRequest(){
+            xhr = getxhr();
+            if (!xhr){
+                alert('当前浏览器不支持xmlhttprequest对象')
+            }else{
+                xhr.onreadystatechange=StatusChange;
+                xhr.open('GET', 'data.json', true);
+                xhr.send();
+            }
+        }
+        //当状态发生改变是执行回调函数
+        function StatusChange(){
+            if(xhr.readyState == 4){
+                var result = xhr.responseText;
+                document.getElementById('result').innerHTML = result;
+            }
+        }
+    </script>
+</body>
+</html>

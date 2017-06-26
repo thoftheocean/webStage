@@ -2,28 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3803efa1-1017-42bf-bb9b-f949c7974526" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo_flask/templates/_macro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo_flask/templates/child.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo_flask/templates/include/_head.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo_django.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo_flask/static/uploads/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo_flask/static/uploads/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo_flask/static/uploads/txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/templates/a.html" afterPath="$PROJECT_DIR$/demo/templates/child.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/templates/base.html" afterPath="$PROJECT_DIR$/demo/templates/model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/iframe/iframe_ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/jQuery/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/jQuery/jq_get.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/jQuery/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/xhr/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/xhr/xhr_conpatiable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/xhr/xhr_get.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ajax/xhr/xhr_post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../blog_flask/app/templates/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/data.sqlite" afterPath="$PROJECT_DIR$/../blog_flask/app/data.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app_flask/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../app_flask/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/.idea/blog_flask.iml" afterPath="$PROJECT_DIR$/../blog_flask/.idea/blog_flask.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/.idea/misc.xml" afterPath="$PROJECT_DIR$/../blog_flask/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/__init__.py" afterPath="$PROJECT_DIR$/../blog_flask/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/auth/forms.py" afterPath="$PROJECT_DIR$/../blog_flask/app/auth/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/auth/views.py" afterPath="$PROJECT_DIR$/../blog_flask/app/auth/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/main/views.py" afterPath="$PROJECT_DIR$/../blog_flask/app/main/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/model.py" afterPath="$PROJECT_DIR$/../blog_flask/app/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/templates/include/_navbar.html" afterPath="$PROJECT_DIR$/../blog_flask/app/templates/include/_navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/templates/login.html" afterPath="$PROJECT_DIR$/../blog_flask/app/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/templates/model.html" afterPath="$PROJECT_DIR$/../blog_flask/app/templates/model.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/templates/model_child.html" afterPath="$PROJECT_DIR$/../blog_flask/app/templates/model_child.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/app/templates/register.html" afterPath="$PROJECT_DIR$/../blog_flask/app/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_flask/manage.py" afterPath="$PROJECT_DIR$/../blog_flask/manage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/templates/table.html" afterPath="$PROJECT_DIR$/demo/templates/table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/views.py" afterPath="$PROJECT_DIR$/demo/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/.idea/demo.iml" afterPath="$PROJECT_DIR$/../demo_flask/.idea/demo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/.idea/misc.xml" afterPath="$PROJECT_DIR$/../demo_flask/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demo_flask/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/app.py" afterPath="$PROJECT_DIR$/../demo_flask/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/demo.py" afterPath="$PROJECT_DIR$/../demo_flask/demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/static/site.css" afterPath="$PROJECT_DIR$/../demo_flask/static/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/templates/index.html" afterPath="$PROJECT_DIR$/../demo_flask/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/templates/index1.html" afterPath="$PROJECT_DIR$/../demo_flask/templates/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo_flask/templates/model.html" afterPath="$PROJECT_DIR$/../demo_flask/templates/model.html" />
     </list>
     <ignored path="demo_django.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +59,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="567">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#14#77#0" expanded="true" />
@@ -66,7 +71,7 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="1029">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="65" selection-end-column="26" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -110,7 +115,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="378">
               <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
@@ -130,8 +135,8 @@
       <file leaf-file-name="model.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/templates/model.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="126">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -197,8 +202,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="720" />
-    <option name="y" value="45" />
+    <option name="x" value="134" />
+    <option name="y" value="68" />
     <option name="width" value="972" />
     <option name="height" value="853" />
   </component>
@@ -629,10 +634,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="45" width="972" height="853" extended-state="0" />
+    <frame x="134" y="68" width="972" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23135965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23684211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30713245" sideWeight="0.5051282" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,9 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +1009,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="1029">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="65" selection-end-column="26" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -1029,7 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="378">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
@@ -1037,7 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="567">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#14#77#0" expanded="true" />
@@ -1063,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/templates/model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="126">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
