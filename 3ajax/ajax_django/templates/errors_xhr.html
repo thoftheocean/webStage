@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <h1>XMLHttpRequest - Ajax请求错误处理</h1>
+    <input type="button" onclick="XmlRequest();" value="发送请求" />
+
+
+    <script src="/static/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        //兼容性处理
+        function GetXHR(){
+            var obj = null;
+            if(window.XMLHttpRequest){
+
+                obj = new XMLHttpRequest();
+            }else if(window.ActiveXObject){
+
+                obj = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            return obj;
+        }
+
+        function XmlRequest(){
+            // 获取XmlHttpRequest对象
+            var xhr = GetXHR();
+            if(!xhr){
+                // 无法创建XMLHttpRequest对象
+            }else{
+
+                xhr.open('POST', "/test/", true);
+                xhr.onreadystatechange = function () {
+
+                    // 是否已经接受完毕
+                    if (xhr.readyState == 4) {
+
+                        // 状态码成功系列
+                        if (xhr.status >= 200 && xhr.status < 300 || xhr.status == 304) {
+                            // {'status': True, 'data': None}
+
+                            // text
+                            // console.log(xhr.responseText);
+
+                            // json,必须形似数组，字典JSON.parse将字符串(必须形似数组和字典)转化为json类型
+                            //console.log(JSON.parse(xhr.responseText));
+
+
+                            // script，javascript语法eval将字符串(形似js语法)转化为script
+                            //eval(xhr.responseText)
+
+                            // xml
+
+
+
+                            var obj = JSON.parse(xhr.responseText);
+                            if(obj.status){
+
+                            }else{
+
+                            }
+                        }else {
+                            console.log('error');
+                        }
+                    }
+
+                };
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset-UTF-8');
+                xhr.send('n1=1;n2=2;');
+            }
+
+
+        }
+
+    </script>
+
+</body>
+</html>

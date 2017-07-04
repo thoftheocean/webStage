@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff1050a7-0a39-40ff-b516-99aac6e27d78" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/.idea/ajax.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/iframe/iframe_ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/jQuery/data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/jQuery/jq_get.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/jQuery/jquery-3.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/xhr/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/xhr/xhr_conpatiable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/xhr/xhr_get.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax/xhr/xhr_post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ajax_django/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/app_flask.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/data.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/model.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/static/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/static/uploads/maizi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/static/uploads/timg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/_macro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/include/_head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/index1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/loginform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/model.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/model_child.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/templates/upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/app/view.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/doc/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/manager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/migrations/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/migrations/alembic.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/migrations/env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/migrations/script.py.mako" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../app_flask/migrations/versions/9d4fce271492_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/blog_flask.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/auth/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/auth/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/auth/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/babel.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/data.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/main/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/main/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/model.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/static/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/static/uploads/maizi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/static/uploads/timg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/_macro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/include/_head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/include/_navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/index1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/loginform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/model.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/model_child.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/posts/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/posts/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/app/templates/upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/configurations/nginx.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/configurations/upstart.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/doc/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/migrations/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/migrations/alembic.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/migrations/env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/migrations/script.py.mako" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/migrations/versions/43142f2ac846_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/migrations/versions/9d4fce271492_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/migrations/versions/ef17fd21a7d6_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/test/geckodriver.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/test/login_page.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/test/model_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/test/test_selenium.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../blog_flask/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/.idea/demo_django.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/static/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/templates/add_publisher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/templates/child.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/templates/model.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/templates/sub.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/templates/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo_django/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo_django/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo_django/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/demo_django/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_django/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/.idea/demo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/SQL.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/demo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/form.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/model_extends.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/model_form.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/read_md.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/static/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/static/uploads/maizi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/static/uploads/timg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/_macro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/include/_head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/index1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/loginform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/model.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/model_child.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo_flask/templates/upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/Sample.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/auth/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/auth/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/auth/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/babel.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/main/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/main/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/main/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/static/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/_index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/_marcos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/includes/_head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/includes/_navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/posts/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/posts/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/templates/upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/app/translations/en/LC_MESSAGES/messages.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/configurations/nginx.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/configurations/upstart.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/doc/app.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/doc/http_methods.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/alembic.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/script.py.mako" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/versions/1c90f047c8ce_initial_migration.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/versions/37b02ef54f9e_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/versions/40d8293f88f_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/versions/59710699ea57_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/migrations/versions/9d5b76509d5_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/tests/login_page.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/tests/test_models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/tests/test_selenium.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../flask_teacher/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/.idea/c1_com.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/cors/jquery-1.12.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/cors/s1_cors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/cors/s2_cors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/cors/s3_cors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/cors/s4_cors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/cors/s5_jsonp2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/demo_calculator/cors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/demo_calculator/jquery-1.12.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/demo_calculator/jsonp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/demo_television/jquery-1.12.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c1_com/demo_television/jsonp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/.idea/c2_com.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/app01/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/app01/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/app01/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/app01/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/app01/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/app01/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/c2_com/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/c2_com/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/c2_com/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/c2_com/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../基于ajax的跨域操作/c2_com/manage.py" afterPath="" />
+    </list>
+    <ignored path="ajax_django.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ajax_django$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1498634066942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ajax_django$manage.coverage" NAME="manage Coverage Results" MODIFIED="1498634081107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ajax_django" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax_django/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_jq.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/error_jq.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors_xhr.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/errors_xhr.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax_django/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2583">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="193" />
+    <option name="y" value="36" />
+    <option name="width" value="1177" />
+    <option name="height" value="767" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax_django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax_django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax_django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ajax_crossDomain/c1_com" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Django server.ajax_django">
+    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="ajax_django" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ajax_django" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ajax_django.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\HXprogram\virtual_environment\PythonDjango3.5.3\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ajax_django" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Django server.ajax_django" />
+      <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff1050a7-0a39-40ff-b516-99aac6e27d78" name="Default" comment="" />
+      <created>1498456329037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498456329037</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__ - 2017.06.28 at 15h 14m 28s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="193" y="36" width="1177" height="767" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2094897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004926" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31777778" sideWeight="0.49384615" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27559054" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31777778" sideWeight="0.5061538" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22834645" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3881081" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error_jq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/errors_xhr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2583">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error_jq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2583">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2583">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/ajax_django.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/errors_xhr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error_jq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <p>
+        <input type="submit" onclick="XmlSendRequest();" />
+    </p>
+
+    <p>
+        <input type="submit" onclick="JqSendRequest();" />
+    </p>
+
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+
+
+        function call(arg){
+            console.log(arg);
+        }
+
+        //通过script实现跨域
+        function XmlSendRequest(){
+            // 创建script标签
+            var tag = document.createElement('script');
+            // 指定src
+            tag.src = "http://127.0.0.1:8000/test/?callback=call";
+            // 添加到head标签中
+            document.head.appendChild(tag);
+            // 删除script标签
+            document.head.removeChild(tag);
+        }
+
+        function JqSendRequest(){
+            $.ajax({
+                url: "http://127.0.0.1:8000/test/",
+                type: 'POST', // 内部 POST-》GET   只接受GET请求 http://127.0.0.1:8000/test/?n1=1&n2=4
+                data: {'n1':1, 'n2':2},
+                dataType: 'JSONP',
+                jsonp: "callback",
+                jsonpCallback: "call"  //后面添加callback=call
+            })
+        }
+
+    </script>
+</body>
+</html>

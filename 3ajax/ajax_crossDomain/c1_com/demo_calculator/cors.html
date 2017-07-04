@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <p>
+        <input type="submit" onclick="XmlSendRequest();" />
+    </p>
+
+    <p>
+        <input type="submit" onclick="JqSendRequest();" />
+    </p>
+
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script>
+        function XmlSendRequest(){
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState == 4) {
+                    var result = xhr.responseText;
+                    console.log(result);
+                }
+            };
+            xhr.open('POST', "http://127.0.0.1:8000/cors/", true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset-UTF-8');
+            xhr.send("n1=4;n2=2");
+        }
+
+        function JqSendRequest(){
+            $.ajax({
+                url: "http://127.0.0.1:8000/cors/",
+                data: {'n1': 444, 'n2': 222},
+                type: 'POST',
+                dataType: 'text',
+                success: function(data, statusText, xmlHttpRequest){
+                    console.log(data);
+                }
+            })
+        }
+
+
+    </script>
+</body>
+</html>
