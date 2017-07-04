@@ -15,9 +15,9 @@ def add(request):
             return render(request, 'add_poem.html', {'form': AddForm()})
         author = form.cleaned_data['author']
         title = form.cleaned_data['title']
-        print(author,title)
+        print(author, title)
         poem = Poem(author=author, title=title)
         poem.save()
-        return HttpResponseRedirect('/')
+        return HttpResponseRedirect('/home_form')
     else:
         return render(request, 'add_poem.html', {'form': AddForm()})

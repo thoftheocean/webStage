@@ -45,12 +45,20 @@ INSTALLED_APPS = [
     'mongodb_django',
     'mongoengine',
     'custom_form',
+    'custom_field',
+    'custom_admin',
+    'general_view',
+    'ajax_json',
+    'djangorestframework',
+    'rest_framework',
+
 ]
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',

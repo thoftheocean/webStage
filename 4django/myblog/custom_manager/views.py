@@ -18,7 +18,7 @@ def todolist(request):
     # return render(request, 'todolist.html', {'showType': '高优先级事件', 'todolist': ToDo.objects.high()})
 
     #方法三
-    # return render(request, 'todolist.html', {'showType': '高优先级未完成的事件', 'todolist': ToDo.objects.all().high().incomplete()})
+    return render(request, 'todolist.html', {'showType': '高优先级未完成的事件', 'todolist': ToDo.objects.all().high().incomplete()})
 
     #方法四
-    return render(request, 'todolist.html', {'showType': '高优先级未完成事件', 'todolist': ToDo.objects.high().incomplete()})
+    # return render(request, 'todolist.html', {'showType': '高优先级未完成事件', 'todolist': ToDo.objects.high().incomplete()})

@@ -26,5 +26,9 @@ urlpatterns = [
     url(r'^', include('merge_databases_table.urls')),
     url(r'^', include('mongodb_django.urls')),
     url(r'^', include('custom_form.urls')),
+    url(r'^', include('custom_field.urls')),
+    url(r'^', include('general_view.urls')),
+    url(r'^', include('ajax_json.urls')),
+    url(r'^', include('djangorestframework.urls')),
 
 ]

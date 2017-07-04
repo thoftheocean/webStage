@@ -20,17 +20,6 @@ class ToDoManager(models.Manager):
         return self.filter(priority=1)
 
 #方法三
-# class TodoQuerySet(models.QuerySet):
-#     def incomplete(self):
-#         return self.filter(is_done=False)
-#
-#     def high(self):
-#         return self.filter(priority=1)
-#
-# class NewTodoManager(models.Manager):
-#     def get_queryset(self):
-#         return TodoQuerySet(self.model, using=self._db)
-#方法四
 class TodoQuerySet(models.QuerySet):
     def incomplete(self):
         return self.filter(is_done=False)
@@ -41,12 +30,23 @@ class TodoQuerySet(models.QuerySet):
 class NewTodoManager(models.Manager):
     def get_queryset(self):
         return TodoQuerySet(self.model, using=self._db)
-
-    def incomplete(self):
-        return self.get_queryset().incomplete()
-
-    def high(self):
-        return self.get_queryset().high()
+#方法四
+# class TodoQuerySet(models.QuerySet):
+#     def incomplete(self):
+#         return self.filter(is_done=False)
+#
+#     def high(self):
+#         return self.filter(priority=1)
+#
+# class NewTodoManager(models.Manager):
+#     def get_queryset(self):
+#         return TodoQuerySet(self.model, using=self._db)
+#
+#     def incomplete(self):
+#         return self.get_queryset().incomplete()
+#
+#     def high(self):
+#         return self.get_queryset().high()
 
 #方法三和方法四区别。法四在newTodoManager中调用了两个方法，就省去了all()的使用。
 
